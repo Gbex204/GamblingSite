@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <link rel="stylesheet" href="style_cadastro.css">
+        <meta charset="UTF-8">
+        <title>Gbex Gambling | Cadastro</title>
+    </head>
+    <body>
+        <div class="conteiner">
+            <div id="div_titulo">
+                <h1 id="h1_titulo">Cadastro</h1>
+            </div>
+            <div id="div_form">
+
+                <form id="form_register" name="form_register" method="GET" action="../php/register.php">
+
+                    <div class="div_input">
+                        <label>Nome:</label>
+                        <input type="text" id="input_name" name="input_name" required>
+                    </div>
+                    <div class="div_input">
+                        <label>Email:</label>
+                        <input type="text" id="input_email" name="input_email" required>
+                    </div>
+
+                    <div class="div_input">
+                        <label>Senha:</label>
+                        <input type="text" id="input_password" name="input_password" required>
+                    </div>
+
+                    <div class="div_input">
+                        <label>Confirmar Senha:</label>
+                        <input type="text" id="input_confirm" name="input_confirm" required>
+                    </div>
+
+                    <div id="div_submit">
+                        <input type="button" class="button" value="Entrar" onclick="enviar_dados()">
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+        <script Language="JavaScript" src="script_cadastro.js"></script>
+    </body>
+</html>
